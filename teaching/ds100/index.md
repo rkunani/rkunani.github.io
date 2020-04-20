@@ -7,7 +7,7 @@
 
 | Week | Resources |
 | ---- | --------- |
-| 1 | [worksheet](./resources/worksheets/disc01.pdf) |
+| 1 | <a href="./resources/worksheets/disc01.pdf">worksheet</a> |
 | 2 | worksheet, guide |
 | 3 | slides |
 | 4 | On vacation 😎 |
