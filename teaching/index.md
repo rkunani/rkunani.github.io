@@ -1,4 +1,4 @@
-<img src='../image.jpg' width="200" height="350" \>
+<img src='../image.jpg' width="200" height="350" />
 
 # Teaching Resources
 
