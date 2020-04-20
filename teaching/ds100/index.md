@@ -7,9 +7,9 @@
 | Week | Resources |
 | ---- | --------- |
 | 1 | worksheet |
-! 2 | worksheet, guide |
+| 2 | worksheet, guide |
 | 3 | slides |
-| 4 | On vacation :smile: |
+| 4 | On vacation :sunglasses: |
 | 5 | None :( |
 | 6 | slides, worksheet |
 | 7 | slides, worksheet |
