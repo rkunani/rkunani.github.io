@@ -1,4 +1,4 @@
-<img src='./image.jpg' width="150" height="200" />
+<img src='./image.jpg' width="140" height="200" />
 
 # Raguvir Kunani
 
