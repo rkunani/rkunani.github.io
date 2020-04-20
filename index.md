@@ -8,6 +8,6 @@ I want to share a great graphic I saw on Twitter that reminds us how important i
 
 <center>
 
-    <img src='./covid.jpeg' width="300" height="300" />
+    <img src='./covid.jpeg' width="350" height="350" />
 
 </center>
