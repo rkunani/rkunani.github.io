@@ -1,4 +1,4 @@
-<img src='../image.jpg' width="150" height="200" />
+<img src='../image.jpg' width="140" height="200" />
 
 # Teaching Resources
 
@@ -8,3 +8,4 @@
 | Fall 2019 | [DS100](https://rkunani.github.io/teaching/ds100/) |
 | Summer 2019 | DS100 |
 | Spring 2019| CS61B, CS88 |
+| Fall 2018 | CS61A |
