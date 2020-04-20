@@ -9,7 +9,7 @@
 | 1 | worksheet |
 | 2 | worksheet, guide |
 | 3 | slides |
-| 4 | On vacation :sunglasses: |
+| 4 | On vacation 😎 |
 | 5 | None :( |
 | 6 | slides, worksheet |
 | 7 | slides, worksheet |
