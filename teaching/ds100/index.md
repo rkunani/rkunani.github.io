@@ -1,5 +1,6 @@
 # Data 100 Resources
 
+**Anonymous Feedback Form**: You can give me anonymous feedback [here](tinyurl.com/raguvirTAfeedback) to help me improve my teaching! All feedback is appreciated.
 ## Spring 2020
 
 ### Discussion Slides + Worksheets
