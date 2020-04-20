@@ -7,7 +7,7 @@
 
 | Week | Resources |
 | ---- | --------- |
-| 1 | worksheet |
+| 1 | [worksheet](https://rkunani.github.io/teaching/ds100/resources/disc01.pdf) |
 | 2 | worksheet, guide |
 | 3 | slides |
 | 4 | On vacation 😎 |
