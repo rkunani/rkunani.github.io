@@ -1,5 +1,3 @@
-<img src='../image.jpg' width="140" height="200" />
-
 # Teaching Resources
 
 | Semester | Course |
