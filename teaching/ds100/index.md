@@ -11,7 +11,7 @@
 | 2 | <a href="./resources/worksheets/disc02.pdf">worksheet</a>, <a href="https://hackmd.io/@rkunani/SybBko1zI">guide</a> |
 | 3 | <a href="./resources/slides/disc03.pdf">slides</a> |
 | 4 | On vacation 😎 |
-| 5 | None :( |
+| 5 | Didn't use slides, didn't write on worksheet |
 | 6 | <a href="./resources/slides/modeling.pdf">slides</a>, <a href="./resources/worksheets/disc06.pdf">worksheet</a> |
 | 7 | <a href="./resources/slides/gradient_descent.pdf">slides</a>, <a href="./resources/worksheets/disc07.pdf">worksheet</a> |
 | 8 | <a href="./resources/slides/linear_regression.pdf">slides</a> |
