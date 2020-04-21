@@ -13,7 +13,7 @@
 | 4 | On vacation 😎 |
 | 5 | None :( |
 | 6 | <a href="./resources/slides/modeling.pdf">slides</a>, <a href="./resources/worksheets/disc06.pdf">worksheet</a> |
-| 7 | <a href="./resources/slides/gradient_descent.pdf">slides</a>,<a href="./resources/worksheets/disc07.pdf">worksheet</a> |
+| 7 | <a href="./resources/slides/gradient_descent.pdf">slides</a>, <a href="./resources/worksheets/disc07.pdf">worksheet</a> |
 | 8 | <a href="./resources/slides/linear_regression.pdf">slides</a> |
 
 ### Guides and Quizzes
@@ -23,7 +23,7 @@ Guides are *supplements* to lecture. Quizzes are for you to do on your time (not
 | Topic | Resources |
 | ----- | --------- |
 | Modeling | quiz, solutions |
-| Gradient Descent | quiz, solutions |
+| Gradient Descent | <a href="./resources/quizzes/gradient_descent_quiz.pdf">quiz</a>, <a href="./resources/quizzes/gradient_descent_quiz_sols.pdf">solutions</a> |
 | Linear Regression | quiz, solutions |
 | Feature Engineering | guide, quiz, solutions |
 | Train-Test Split, Validation | guide, quiz, solutions |
