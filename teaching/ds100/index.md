@@ -40,6 +40,10 @@ Guides are *supplements* to lecture. Quizzes are for you to do on your time (not
 ## Other Resources
 
 - [Hypothesis Testing Guide](https://hackmd.io/@rkunani/hypothesis-testing)
+- <a href="./resources/other/gradient_descent_walkthrough.pdf">Gradient Descent Walkthrough</a>
+- <a href="./resources/other/group_merge_walkthrough.html">Grouping and Merging Walkthrough Notebook</a>, <a href="./resources/other/group_merge_walkthrough.ipynb" download>code</a>
+- <a href="./resources/other/linear_regression_review.pdf">Linear Regression Review Session Problems</a>
+- <a href="./resources/other/pca_review.pdf">PCA Review Session Slides</a>, <a href="./resources/other/pca_review_solutions.pdf">solutions</a>
 
 ## Fall 2019
 
