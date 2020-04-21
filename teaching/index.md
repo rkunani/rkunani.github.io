@@ -1,9 +1,9 @@
 # Teaching Resources
 
-| Semester | Course |
-| -------  | ------ |
-| Spring 2020 | <a href="./ds100/">DS 100</a> |
-| Fall 2019 | [DS100](https://rkunani.github.io/teaching/ds100/) |
-| Summer 2019 | DS100 |
-| Spring 2019| CS61B, CS88 |
-| Fall 2018 | CS61A |
+| Semester | Role | Resources |
+| -------  | ---- | ------ |
+| Spring 2020 | Data 100 TA |<a href="./ds100/">Data 100 Resources</a> |
+| Fall 2019 | Data 100 TA | |
+| Summer 2019 | Data 100 TA | |
+| Spring 2019| CS88 CSM Senior Mentor, CS61B CSM Junior Mentor | CS88 Resources, CS61B Resources |
+| Fall 2018 | CS61A CSM Junior Mentor | |
