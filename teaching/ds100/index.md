@@ -8,13 +8,13 @@
 | Week | Resources |
 | ---- | --------- |
 | 1 | <a href="./resources/worksheets/disc01.pdf">worksheet</a> |
-| 2 | worksheet, guide |
-| 3 | slides |
+| 2 | <a href="./resources/worksheets/disc02.pdf">worksheet</a>, <a href="hackmd.io/@rkunani">guide</a> |
+| 3 | <a href="./resources/slides/disc03.pdf">slides</a> |
 | 4 | On vacation 😎 |
 | 5 | None :( |
-| 6 | slides, worksheet |
-| 7 | slides, worksheet |
-| 8 | slides |
+| 6 | <a href="./resources/slides/modeling.pdf">slides</a>, <a href="./resources/worksheets/disc06.pdf">worksheet</a> |
+| 7 | <a href="./resources/slides/gradient_descent.pdf">slides</a>,<a href="./resources/worksheets/disc07.pdf">worksheet</a> |
+| 8 | <a href="./resources/slides/linear_regression.pdf">slides</a> |
 
 ### Guides and Quizzes
 
