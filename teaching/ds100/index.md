@@ -8,7 +8,7 @@
 | Week | Resources |
 | ---- | --------- |
 | 1 | <a href="./resources/worksheets/disc01.pdf">worksheet</a> |
-| 2 | <a href="./resources/worksheets/disc02.pdf">worksheet</a>, <a href="hackmd.io/@rkunani">guide</a> |
+| 2 | <a href="./resources/worksheets/disc02.pdf">worksheet</a>, <a href="https://hackmd.io/@rkunani/SybBko1zI">guide</a> |
 | 3 | <a href="./resources/slides/disc03.pdf">slides</a> |
 | 4 | On vacation 😎 |
 | 5 | None :( |
