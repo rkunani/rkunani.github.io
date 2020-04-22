@@ -18,8 +18,9 @@
 | 6 | <a href="./resources/slides/modeling.pdf">slides</a>, <a href="./resources/worksheets/disc06.pdf">worksheet</a> |
 | 7 | <a href="./resources/slides/gradient_descent.pdf">slides</a>, <a href="./resources/worksheets/disc07.pdf">worksheet</a> |
 | 8 | <a href="./resources/slides/linear_regression.pdf">slides</a> |
+| 9+ | switched to guides |
 
-### Guides and Quizzes
+### Guides
 
 Guides are *supplements* to lecture.
 
