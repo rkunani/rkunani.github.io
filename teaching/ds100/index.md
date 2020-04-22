@@ -13,7 +13,7 @@
 | 1 | <a href="./resources/worksheets/disc01.pdf">worksheet</a> |
 | 2 | <a href="./resources/worksheets/disc02.pdf">worksheet</a>, <a href="https://hackmd.io/@rkunani/SybBko1zI">guide</a> |
 | 3 | <a href="./resources/slides/disc03.pdf">slides</a> |
-| 4 | On vacation 😎 |
+| 4 | N/A |
 | 5 | no slides or worksheet |
 | 6 | <a href="./resources/slides/modeling.pdf">slides</a>, <a href="./resources/worksheets/disc06.pdf">worksheet</a> |
 | 7 | <a href="./resources/slides/gradient_descent.pdf">slides</a>, <a href="./resources/worksheets/disc07.pdf">worksheet</a> |
@@ -21,13 +21,13 @@
 
 ### Guides and Quizzes
 
-Guides are *supplements* to lecture. Quizzes are for you to do on your time (not graded, just for your learning).
+Guides are *supplements* to lecture.
 
 | Topic | Resources |
 | ----- | --------- |
 | Feature Engineering | <a href="https://hackmd.io/@rkunani/feature-engineering">guide</a> |
 | Train-Test Split, Validation | guide |
-| Regularization | guide, quiz, solutions |
+| Regularization | guide |
 | Bias-Variance Tradeoff | guide |
 | Logistic Regression | guide |
 | Decision Trees | guide |
