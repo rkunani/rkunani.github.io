@@ -25,17 +25,14 @@ Guides are *supplements* to lecture. Quizzes are for you to do on your time (not
 
 | Topic | Resources |
 | ----- | --------- |
-| Modeling | quiz, solutions |
-| Gradient Descent | <a href="./resources/quizzes/gradient_descent_quiz.pdf">quiz</a>, <a href="./resources/quizzes/gradient_descent_quiz_sols.pdf">solutions</a> |
-| Linear Regression | quiz, solutions |
-| Feature Engineering | <a href="https://hackmd.io/@rkunani/feature-engineering">guide</a>, quiz, solutions |
-| Train-Test Split, Validation | guide, quiz, solutions |
+| Feature Engineering | <a href="https://hackmd.io/@rkunani/feature-engineering">guide</a> |
+| Train-Test Split, Validation | guide |
 | Regularization | guide, quiz, solutions |
-| Bias-Variance Tradeoff | guide, quiz, solutions |
-| Logistic Regression | guide, quiz, solutions |
-| Decision Trees | guide, quiz, solutions |
-| PCA | guide, quiz, solutions |
-| Clustering | guide, quiz, solutions |
+| Bias-Variance Tradeoff | guide |
+| Logistic Regression | guide |
+| Decision Trees | guide |
+| PCA | guide |
+| Clustering | guide |
 
 ## Other Resources
 
