@@ -1,4 +1,4 @@
-<img src='./image.jpg' width="280" height="400" />
+<img src='./image.jpg' width="140" height="200" />
 
 # Raguvir Kunani
 
@@ -8,6 +8,6 @@ Here's a great graphic I saw on Twitter that reminds us how important it is that
 
 <center>
 
-    <img src='./covid.jpeg' width="350" height="350" />
+    <img src='./covid.jpeg' width="700" height="700" />
 
 </center>
