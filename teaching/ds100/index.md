@@ -37,6 +37,7 @@ Guides are *supplements* to lecture.
 
 ## Other Resources
 
+- <a href="./resources/other/precision-recall.pdf" target="_blank">Precision Recall Example</a>
 - <a href="https://hackmd.io/@rkunani/hypothesis-testing" target="_blank">Hypothesis Testing Guide</a>
 - <a href="./resources/other/gradient_descent_walkthrough.pdf" target="_blank">Gradient Descent Walkthrough</a>
 - <a href="./resources/other/group_merge_walkthrough.html" target="_blank">Grouping and Merging Walkthrough Notebook</a>, <a href="./resources/other/group_merge_walkthrough.ipynb" download>code</a>
