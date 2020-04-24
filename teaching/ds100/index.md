@@ -30,8 +30,8 @@ Guides are *supplements* to lecture.
 | Train-Test Split, Validation | guide |
 | Regularization | guide |
 | Bias-Variance Tradeoff | guide |
-| Logistic Regression | guide |
-| Decision Trees | guide |
+| Logistic Regression | guide, <a href="https://d1b10bmlvqabco.cloudfront.net/attach/k4zyqkjkyt33a2/j6p99phf1k43jq/k9d9hu5z6c7z/Discussion_12.pdf" target="_blank">Paul's Discussion Notes</a> |
+| Decision Trees | guide, <a href="https://d1b10bmlvqabco.cloudfront.net/attach/k4zyqkjkyt33a2/j6p99phf1k43jq/k9d9hu5z6c7z/Discussion_12.pdf" target="_blank">Paul's Discussion Notes</a> |
 | PCA | guide |
 | Clustering | guide |
 
