@@ -16,7 +16,7 @@ These are resources I distributed to my students when I was part of a teaching o
 | 3 | <a href="./guides/cs61b_week3.html" target="_blank">Week 3</a> |
 | 4 | <a href="./guides/cs61b_week4.html" target="_blank">Week 4</a> |
 | 5 | <a href="./guides/cs61b_week5.html" target="_blank">Week 5</a> |
-| 7 | <a href="./guides/cs61b)week7/html" target="_blank">Week 7</a> |
+| 7 | <a href="./guides/cs61b_week7.html" target="_blank">Week 7</a> |
 
 ## CS88
 
