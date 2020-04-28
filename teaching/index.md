@@ -1,5 +1,7 @@
 # Teaching Resources
 
+<a href="raguvir.me/">Back to Home</a>
+
 | Semester | Role | Resources |
 | -------  | ---- | ------ |
 | Spring 2020 | Data 100 TA |<a href="./ds100/">Data 100 Resources</a> |

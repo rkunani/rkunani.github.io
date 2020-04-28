@@ -3,6 +3,8 @@
 **Anonymous Feedback Form**: You can give me anonymous feedback <a href="https://tinyurl.com/raguvirTAfeedback" target="_blank">here</a> to help me improve my teaching! All feedback is appreciated.
 
 <a href="../">Back to Teaching Page</a>
+<a href="raguvir.me/">Back to Home</a>
+
 
 ## Spring 2020
 
