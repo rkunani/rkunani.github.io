@@ -2,7 +2,7 @@
 
 # Raguvir Kunani
 
-This is a platform for me to more easily share my <h2>[teaching resources](https://rkunani.github.io/teaching/)</h2>.
+This is a platform for me to more easily share my <h2><a href="https://rkunani.github.io/teaching/">teaching resources</a></h2>.
 
 Here's a great graphic I saw on Twitter that reminds us how important it is that we continue to practice social distancing, as hard as it may be.
 
