@@ -1,0 +1,236 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cs88_week1</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__left">
+    <div class="stackedit__toc">
+      
+<ul>
+<li><a href="#week-1-control-loops-functions">Week 1: Control, Loops, Functions</a>
+<ul>
+<li><a href="#expressions">Expressions</a></li>
+<li><a href="#control">Control</a></li>
+<li><a href="#functions">Functions</a></li>
+<li><a href="#loops">Loops</a></li>
+</ul>
+</li>
+<li><a href="#conclusion">Conclusion</a></li>
+</ul>
+
+    </div>
+  </div>
+  <div class="stackedit__right">
+    <div class="stackedit__html">
+      <h1 id="week-1-control-loops-functions">Week 1: Control, Loops, Functions</h1>
+<p>This guide is meant to build the fundamentals of and point out common misconceptions in control, loops, and functions. I hope you find this useful!</p>
+<h2 id="expressions">Expressions</h2>
+<p>Before we can get to control, loops, and functions, I want to take a moment to cover expressions because expressions are the one of the most fundamental building blocks of code. An expression is anything that the computer can <em>evaluate</em> to a value. There’s a reason why I emphasized <em>evaluate</em>: when your computer runs code, all it’s doing is evaluating a bunch of expressions. The result of these evaluations is what you see as output.</p>
+<p>Ok, but what does an expression actually look like? Well, <code>2</code> is an expression, which just evaluates to the integer 2. <code>2</code> is an example of what we call a <strong>primitive expression</strong>. Primitive expressions are the most basic type of expression because they only take 1 step to evaluate. In other words, when the computer sees <code>2</code>, it knows that it’s just the integer 2.</p>
+<p>Other examples of primitive expressions are <em>strings</em> and <em>variables</em>. For example, <code>"hi"</code> is a string which the computer knows is just the string “hi”. Likewise, if you assign a variable, the computer knows immediately what that variable is when you ask the computer to evaluate the variable:</p>
+<pre><code>&gt;&gt;&gt; a = 0
+&gt;&gt;&gt; a
+0
+</code></pre>
+<p>Expressions can be more complicated, though. <code>2 + 3</code> is such an example. In order to evaluate <code>2 + 3</code>, the computer needs to evaluate <code>2</code>, then <code>+</code>, then <code>3</code>. After it determines that <code>2</code> is 2, <code>+</code> is the add operator, and <code>3</code> is 3, then it can determine what happens when you add 2 and 3. The output is, of course, 5.</p>
+<p>The last thing I want to say about expressions is that they can be nested and involve variables too! This is best illustrated by an example:</p>
+<pre><code>&gt;&gt;&gt; a = 1
+&gt;&gt;&gt; b = 2
+&gt;&gt;&gt; (a + b) * (a - b)
+</code></pre>
+<p>What do you think will be the output? Let’s walk through it. First, the computer sees <code>(a + b)</code>. This will evaluate to 3. Then the computer sees <code>*</code>, which is the multiply operator. Next, the computer sees <code>(a - b)</code>, which will evaluate to -1. Finally, the computer combines it all and computes <code>3 * -1</code>, which is just -3.</p>
+<p>The most important thing to remember about expressions is that they are just statements that get evaluated by the computer to give some output. They might look scary sometimes, but if you just look at each individual piece of an expression at a time, you can figure out what it evaluates to.</p>
+<h2 id="control">Control</h2>
+<p>By now you’ve been introduced to the idea of <strong>boolean expressions</strong> (e.g. <code>x &gt; 1</code>), so I’m not going to go over what those mean in detail. At a high level, boolean expressions are expressions that evaluate to either <code>True</code> or <code>False</code>.</p>
+<blockquote>
+<p>Remember that, in Python, all numbers are <code>True</code> except 0, which is <code>False</code>. Additionally, all strings are <code>True</code> except the empty string <code>''</code>, which is <code>False</code>.</p>
+</blockquote>
+<p>What’s important about boolean expressions is they allow you to write if-statements. You should already be familiar with if-statements, but there are some common misconceptions about how if-statements work that we went over in section. I’ll recap them here.</p>
+<p>As a reminder, an <strong>if-statement</strong> is comprised of 3 parts:</p>
+<ol>
+<li><strong>if</strong> (e.g. <code>if x &lt; 1:</code>)</li>
+<li><strong>elif</strong> (e.g. <code>elif x &lt; 5:</code>)</li>
+<li><strong>else</strong> (e.g. <code>else:</code>)</li>
+</ol>
+<p><strong>Common Mistake:</strong> Many students get confused when they see an <code>if</code> without an <code>elif</code> or an <code>else</code>. It is important to note that the <code>elif</code> and the <code>else</code> are <em>optional</em>; they are not necessary for an <code>if</code> statement to be valid.</p>
+<p><strong>Common Mistake:</strong> Another common mistake students make when it comes to if-statements is they execute the code in multiple parts of an if-statement. This mistake is best shown with an example:</p>
+<pre><code>x = 0
+if x &lt; 10:
+    print('ayy')
+elif x &lt; 5:
+    print('lmao')
+else:
+    print('dank')
+</code></pre>
+<p>Since <code>x &lt; 10</code> and <code>x &lt; 5</code> are both <code>True</code>, many students would say the output is:</p>
+<pre><code>ayy
+lmao
+</code></pre>
+<p><em>Don’t fall into this trap</em>. You can only execute the code inside <strong>one</strong> of the <code>if</code>, <code>elif</code>, and <code>else</code> blocks. In the case of the above example, the correct output is:</p>
+<pre><code>ayy
+</code></pre>
+<p>This is because, after you evaluate <code>x &lt; 10</code> to <code>True</code> (because 0 is less than 10), you enter the <code>if</code> block and execute all the code inside it. That’s why ayy gets printed to the screen. <em>Since you executed the code in the <code>if</code> block, you don’t execute the code in the <code>elif</code> or <code>else</code> blocks; just skip them</em>.</p>
+<p><strong>Common Mistake</strong>: Many students tend to misapply the rule above about only executing only one part of an if-statement. If there are multiple if-statements, treat them separately. I’ll slightly modify the previous example to illustrate what I mean:</p>
+<pre><code>x = 0
+if x &lt; 10:
+    print('ayy')
+elif x &lt; 5:
+    print('lmao')
+if x &lt;= 0:
+    print('dank')
+</code></pre>
+<p>What’s the output? Let’s apply the rules we know. Starting at the top of the code, we define a variable <code>x</code> to be 0. Then we come across an if-statement, so we start our process for executing if-statements. First, we evaluate <code>x &lt; 10</code> to <code>True</code>. Thus, we will execute the code in the <code>if</code> block, which prints ayy to the screen. <em>Since we executed the code inside the <code>if</code> block, we are done with this if-statement.</em> This means we skip the <code>elif</code> and move onto the next part of the code, where we encounter another (<em>separate</em>) if-statement. Therefore, we restart our procedure for executing if-statements. First, we evaluate <code>x &lt;= 0</code> to <code>True</code> and thus execute all the code in the <code>if</code> block, which prints dank to the screen. Since there are no <code>elif</code> or <code>else</code> blocks, we are done! The final output is:</p>
+<pre><code>ayy
+dank
+</code></pre>
+<p>The purpose of if-statements is to shift <strong>control</strong> of your program. In less computer science-y terms, if-statements allow you to have more control of exactly what code your computer will run. In the above example, there is no way that both ayy and lmao can get printed to the screen (can you see why?); it depends on what value <code>x</code> takes on. In this way, you can control what gets printed by setting <code>x</code> to different values. I know in section we talked a little about what control is conceptually, but I didn’t do the best job of explaining it. Hopefully this gives you a better idea of what control is.</p>
+<h2 id="functions">Functions</h2>
+<p>You may have heard about functions in math before, for example <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">f(x) = x^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.10764em;">f</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 0.814108em; vertical-align: 0em;"></span><span class="mord"><span class="mord mathit">x</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height: 0.814108em;"><span class="" style="top: -3.063em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span>. But what do functions have to do with programming? As it turns out, functions — like expressions — are also crucial building blocks for code. But before we even talk about functions, let’s motivate why functions are even desirable in the first place.</p>
+<h3 id="motivation-for-functions">Motivation for Functions</h3>
+<p>Let’s say you are writing code that finds the slope between 2 points (<span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>x</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">x_1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.58056em; vertical-align: -0.15em;"></span><span class="mord"><span class="mord mathit">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.301108em;"><span class="" style="top: -2.55em; margin-left: 0em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span></span></span></span></span>, <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>y</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">y_1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.625em; vertical-align: -0.19444em;"></span><span class="mord"><span class="mord mathit" style="margin-right: 0.03588em;">y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.301108em;"><span class="" style="top: -2.55em; margin-left: -0.03588em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span></span></span></span></span>) and (<span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>x</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">x_2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.58056em; vertical-align: -0.15em;"></span><span class="mord"><span class="mord mathit">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.301108em;"><span class="" style="top: -2.55em; margin-left: 0em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span></span></span></span></span>, <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>y</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">y_2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.625em; vertical-align: -0.19444em;"></span><span class="mord"><span class="mord mathit" style="margin-right: 0.03588em;">y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.301108em;"><span class="" style="top: -2.55em; margin-left: -0.03588em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span></span></span></span></span>). Using the formula:</p>
+<p><span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>slope</mtext><mo>=</mo><mfrac><mrow><msub><mi>y</mi><mn>2</mn></msub><mo>−</mo><msub><mi>y</mi><mn>1</mn></msub></mrow><mrow><msub><mi>x</mi><mn>2</mn></msub><mo>−</mo><msub><mi>x</mi><mn>1</mn></msub></mrow></mfrac></mrow><annotation encoding="application/x-tex"> \text{slope} = \frac{y_2 - y_1}{x_2 - x_1} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.88888em; vertical-align: -0.19444em;"></span><span class="mord text"><span class="mord">slope</span></span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 2.09633em; vertical-align: -0.836em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 1.26033em;"><span class="" style="top: -2.314em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord"><span class="mord mathit">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.301108em;"><span class="" style="top: -2.55em; margin-left: 0em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mord"><span class="mord mathit">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.301108em;"><span class="" style="top: -2.55em; margin-left: 0em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.677em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord"><span class="mord mathit" style="margin-right: 0.03588em;">y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.301108em;"><span class="" style="top: -2.55em; margin-left: -0.03588em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mord"><span class="mord mathit" style="margin-right: 0.03588em;">y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.301108em;"><span class="" style="top: -2.55em; margin-left: -0.03588em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.836em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></span></p>
+<p>you might write some code like:</p>
+<pre><code>x1 = 2
+y1 = 3
+x2 = 5
+y2 = 1
+slope = (y2 - y1) / (x2 - x1)
+print(slope)
+</code></pre>
+<p>This code is perfectly correct. But what if you wanted the slope between a different 2 points? You would have to change the values of <code>x1</code>, <code>y1</code>, <code>x2</code>, and <code>y2</code>, and then run your code again to get the new slope. But then you lose your old slope! This brings up 2 issues with the current code for calculating slope:</p>
+<ol>
+<li>The code isn’t reusable. If you want to get the slope between 2 new points, you need to rewrite some parts of the code.</li>
+<li>The code doesn’t let you save previous slopes.</li>
+</ol>
+<p>This is where functions come into play. Instead of writing code that gives <em>specific</em> values to <code>x1</code>, <code>y1</code>, <code>x2</code>, and <code>y2</code>, we’ll write code that lets <code>x1</code>, <code>y1</code>, <code>x2</code>, and <code>y2</code> take on any value. In other words, we’ll write code that tells the computer what the formula for slope is, so we can just give the computer our desired points (<span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>x</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">x_1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.58056em; vertical-align: -0.15em;"></span><span class="mord"><span class="mord mathit">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.301108em;"><span class="" style="top: -2.55em; margin-left: 0em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span></span></span></span></span>, <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>y</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">y_1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.625em; vertical-align: -0.19444em;"></span><span class="mord"><span class="mord mathit" style="margin-right: 0.03588em;">y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.301108em;"><span class="" style="top: -2.55em; margin-left: -0.03588em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span></span></span></span></span>) and (<span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>x</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">x_2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.58056em; vertical-align: -0.15em;"></span><span class="mord"><span class="mord mathit">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.301108em;"><span class="" style="top: -2.55em; margin-left: 0em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span></span></span></span></span>, <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>y</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">y_2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.625em; vertical-align: -0.19444em;"></span><span class="mord"><span class="mord mathit" style="margin-right: 0.03588em;">y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.301108em;"><span class="" style="top: -2.55em; margin-left: -0.03588em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span></span></span></span></span>) and it will calculate the slope for us. This is analogous to having a friend who is an expert at calculating slopes, and every time you need the slope between 2 points you just ask that friend what the slope between those 2 points is. Let’s see what our new and improved code looks like:</p>
+<pre><code>def slope(x1, y1, x2, y2):
+	s = (y2 - y1) / (x2 - x1)
+	print(s)
+</code></pre>
+<p>Let’s deconstruct what’s going on here, and I’ll draw an analogy to the math function <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">f(x) = x^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.10764em;">f</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 0.814108em; vertical-align: 0em;"></span><span class="mord"><span class="mord mathit">x</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height: 0.814108em;"><span class="" style="top: -3.063em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span> to make the concept easier to see.</p>
+<p>When you define a function in math, you have to give the function 2 things: a <em>name</em> and an <em>input</em>. In the example of <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">f(x) = x^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.10764em;">f</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 0.814108em; vertical-align: 0em;"></span><span class="mord"><span class="mord mathit">x</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height: 0.814108em;"><span class="" style="top: -3.063em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span>, the name of the function is <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>f</mi></mrow><annotation encoding="application/x-tex">f</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.88888em; vertical-align: -0.19444em;"></span><span class="mord mathit" style="margin-right: 0.10764em;">f</span></span></span></span></span> and the input is <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathit">x</span></span></span></span></span>. Now let’s look at our example code. The first line that says <code>def slope(x1, y1, x2, y2):</code> is just telling the computer “Hey, I’m defining a function with the name <code>slope</code> and input <code>x1</code>, <code>y1</code>, <code>x2</code>, and <code>y2</code>.”</p>
+<p>In math, after you specify a name and input for a function, you have to say what the function actually does to the input to get to the output. In the case of <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">f(x) = x^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.10764em;">f</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 0.814108em; vertical-align: 0em;"></span><span class="mord"><span class="mord mathit">x</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height: 0.814108em;"><span class="" style="top: -3.063em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span>, the function squares the input to give the output, which we write in math as <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mi>x</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">x^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.814108em; vertical-align: 0em;"></span><span class="mord"><span class="mord mathit">x</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height: 0.814108em;"><span class="" style="top: -3.063em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span>. Now, let’s look at our example code. The second and third lines that say <code>s = (y2 - y1) / (x2 - x1)</code> and <code>print(s)</code> tells the computer “Hey, remember that function named <code>slope</code> that I just told you about? Here’s what I want <code>slope</code> to do with its inputs: divide <code>(y2 - y1)</code> by <code>(x2 -x1)</code>, and print out the resulting value as the output.”</p>
+<p>Using <code>slope</code>, we can find the slope between any 2 points! Here’s how it looks:</p>
+<pre><code>&gt;&gt;&gt; slope(2, 3, 5, 9)
+0.5
+&gt;&gt;&gt; slope(0, 0, 1, 1)
+1
+&gt;&gt;&gt; slope(3, 4, 18, 9)
+3
+</code></pre>
+<p>Notice that in our new usage of <code>slope</code>, we resolved both issues we found with our old code. We were able to reuse <code>slope</code> with different numbers to get different slopes without having to rewrite the code, and we were able to save previous slope calculations. Hopefully this slope example showed you why functions are useful in programming: they help us avoid having to rewrite code by making our code reusable.</p>
+<h3 id="details-of-functions">Details of Functions</h3>
+<p>Now that you have some motivation behind what a function does, let’s take a look at some of the details of defining and using a function.</p>
+<h4 id="defining-a-function">Defining a Function</h4>
+<p>We already said above that <code>def slope(x1, y1, x2, y2):</code> tells the computer to define a function called <code>slope</code> with the inputs <code>x1</code>, <code>y1</code>, <code>x2</code>, and <code>y2</code>. In programming, we call these inputs <strong>parameters</strong> of the <code>slope</code> function.</p>
+<p>However, in the second and third lines telling the computer what to do with the parameters to get the output, we told the computer to divide <code>(y2 - y1)</code> by <code>(x2 -x1)</code> and <code>print</code> the result. While this shows the correct output to the screen, it actually doesn’t do what exactly what we want. Let me show you what I mean:</p>
+<pre><code>&gt;&gt;&gt; slope(3, 4, 18, 9)
+3
+&gt;&gt;&gt; s = slope(3, 4, 18, 9)
+3 # note that 3 is printed, not returned
+&gt;&gt;&gt; s
+&gt;&gt;&gt;
+</code></pre>
+<p>What? If <code>slope</code> is supposed to calculate the slope between the given points, then why doesn’t <code>s</code> evaluate to 3?</p>
+<p><em>In Python, when we tell the computer what the output of a function should be, we have to use a <code>return</code> statement (e.g. <code>return 1</code>). The output of the function will then be whatever the expression (see how it all connects back to expressions?) inside the <code>return</code> statement evaluates to.</em> So if a function had a <code>return</code> statement that looked like <code>return 3 + 5</code>, the function would return 8.</p>
+<p>Going back to the <code>slope</code> example, notice that <code>slope</code> doesn’t have a <code>return</code> statement. But if the computer requires a <code>return</code> statement for it to know what the output of a function is, how did the computer know what the output of <code>slope</code> should be? <em>In Python, if a function doesn’t have a <code>return</code> statement, the function returns <code>None</code>, a value that represents “nothing”.</em> Therefore, <code>slope</code> actually returned <code>None</code>, which is why evaluating <code>s</code> showed no output.</p>
+<blockquote>
+<p>Note: If an expression evaluates to <code>None</code>, no output will show on the screen if you ask the computer to evaluate that expression.</p>
+</blockquote>
+<p>How can we fix <code>slope</code> to work properly? Instead of printing the result of dividing <code>(y2 - y1)</code> by <code>(x2 -x1)</code>, we should <code>return</code> the result:</p>
+<pre><code>def slope(x1, y1, x2, y2):
+	s = (y2 - y1) / (x2 - x1)
+	return s
+</code></pre>
+<p>Now <code>slope</code> will work as intended:</p>
+<pre><code>&gt;&gt;&gt; slope(3, 4, 18, 9)
+3
+&gt;&gt;&gt; s = slope(3, 4, 18, 9)
+&gt;&gt;&gt; s
+3
+</code></pre>
+<blockquote>
+<p>Semantic note on <code>print</code> vs. <code>return</code> with strings: <code>print("hi")</code> will show <code>hi</code> to the screen, while <code>return "hi"</code> will show <code>"hi"</code> to the screen.</p>
+</blockquote>
+<h4 id="using-functions">Using Functions</h4>
+<p>Once you have a function, how do you use it? You should already be familiar with this concept, but there are nuances to it that are favorites for exam questions so I want to touch on those. We already saw with the <code>slope</code> example how to use a function: <code>slope(3, 4, 18, 9)</code>. To <strong>call a function</strong>, you write the function’s name and, inside of parentheses, specify the values for the parameters of the function. Specifying the parameters is also known in computer science as <em>passing in <strong>arguments</strong> to the function</em>.</p>
+<p><strong>Common mistake:</strong> Many students confuse parameters and arguments. Parameters are the <em>variables</em> a function takes as input. Arguments are the specific values that parameters take on during a specific call to the function. For example, <code>x1</code>, <code>y1</code>, <code>x2</code>, and <code>y2</code> are the parameters of <code>slope</code>, whereas <code>3</code>, <code>4</code>, <code>18</code>, and <code>9</code> are the arguments of <code>slope</code> when we call <code>slope(3, 4, 18, 9)</code>.</p>
+<p>When you call a function, you’re writing an expression (it all ties back to expressions again) that the computer then evaluate to some value. These expressions are called <strong>call expressions</strong>, and the computer has a specific order of steps that it takes to evaluate call expressions.</p>
+<p>To evaluate a call expression:</p>
+<ol>
+<li>Evaluate the operator (function)</li>
+<li>Evaluate the operand(s) (arguments)</li>
+<li>Apply the operator to the operands</li>
+</ol>
+<p>Let’s look at an example to see these steps in action.</p>
+<pre><code>def square(x):
+	return x * x
+
+square(3 + 5)
+</code></pre>
+<p>You can probably already tell what the output of this code will be, but let’s step through it like a computer would. First, we define a function <code>square</code>. Then we see a call expression that calls <code>square</code> with the argument <code>3 + 5</code>. Therefore, we must evaluate the call expression.</p>
+<p>Step 1: Evaluate the operator (function). In this case the computer sees that the operator is the <code>square</code> function. Since we just defined the <code>square</code> function above, the computer knows what <code>square</code> is.</p>
+<p>Step 2: Evaluate the operand(s) (arguments). The computer sees <code>3 + 5</code> and evaluates it to 8.</p>
+<p>Step 3: Apply the operator to the operand(s). In this case, we are applying the <code>square</code> function on the input 8. Since this returns 64, we say that <code>square(8)</code> evaluates to 64 and 64 gets outputted to the screen.</p>
+<p>In order to use a function, you have to write a call expression for that function on some arguments. In order to figure out what that call expression evaluates to, follow the 3 steps above.</p>
+<h4 id="print-vs.-return-in-functions">Print vs. Return in Functions</h4>
+<p><strong>Common Mistake:</strong> Students often think that when a function prints something, whatever it prints is what that function gets evaluated to when it is called. <em>Remember, functions get evaluated to whatever the <code>return</code> statement evaluates to, and nothing else.</em></p>
+<p>If you are in the middle of evaluating a function call and you come across a <code>print</code> call expression, just treat it like any other call expression! Evaluate the operator to the <code>print</code> function, evaluate the operands, and then print the operands (which just shows the operands to the screen). After you’re done evaluating the <code>print</code> call expression, continue evaluating your original function call.</p>
+<p>But if all functions are supposed to evaluate to something when they are called, what does the <code>print</code> function evaluate to? Remember what I said previously about functions that don’t have a <code>return</code> statement. They just return <code>None</code>! Thus, all call expressions  with <code>print</code> as the operator evaluate to <code>None</code>.</p>
+<p><strong>Common Mistake:</strong> Students often think that when a function prints something, they should stop execution of the code in that function. <em>In reality, only a <code>return</code> statement stops the execution of the code in a function.</em></p>
+<h2 id="loops">Loops</h2>
+<p>We saw that functions help us avoid having to rewrite code. Loops are another technique used to help us avoid rewriting code, but they’re quite different from functions.</p>
+<h3 id="motivation-for-loops">Motivation for Loops</h3>
+<p>When you drink water, you continue to drink water until you aren’t thirsty anymore. A human brain can execute a command to drink water very easily: “drink water until you aren’t thirsty anymore.” But a computer isn’t as smart as a human brain. It can only do take one step at a time, and only does <em>exactly</em> the steps you tell it to do. So if you had to write code that told a robot to drink water, your code would probably look something like:</p>
+<pre><code>if you are thirsty:
+	take 1 sip of water
+else:
+	stop drinking water
+
+if you are still thirsty:
+	take 1 sip of water
+else:
+	stop drinking water
+
+if you are still thirsty:
+	take 1 sip of water
+else:
+	stop drinking water
+.
+.
+.
+# Continues until you are not thirsty anymore
+</code></pre>
+<p>In theory, the above code could go on forever. So how could you possibly write code that would tell a robot how to drink water? That’s where loops come in.</p>
+<p>Loops allow you to repeat a certain chunk of code until some condition is met. In our robot example, we want to write code that will tell the robot to repeatedly take 1 sip of water until it isn’t thirsty anymore. This what that would look like in code:</p>
+<pre><code>while you are thirsty:
+	take 1 sip of water
+</code></pre>
+<p>Let’s deconstruct this code to see what’s happening. <code>while</code> tells the computer that we are writing a loop. <code>take 1 sip of water</code> is the code that we want to computer to repeatedly execute. <code>you are thirsty</code> tells the computer to continue to repeatedly execute the code until <code>you are thirsty</code> is <code>False</code>.</p>
+<h3 id="details-of-loops">Details of Loops</h3>
+<p>A general loop takes the form:</p>
+<pre><code>while condition:
+	# some lines of code
+</code></pre>
+<p>As we saw above, this loop would repeatedly execute the code inside the loop until <code>condition</code> is <code>False</code>. But what does it mean for <code>condition</code> to be <code>False</code>. Well, it means that <code>condition</code> has to be something that can evaluate to <code>False</code>. What does that sound like? A boolean expression! Notice it all links back to expressions again.</p>
+<p>Let’s see how we can use this knowledge to write real code to tell a robot to drink water. Let’s define a variable <code>thirst_level</code> to represent how thirsty the robot is and pretend we have a function <code>take_sip</code> that just tells the robot to take a sip of water. Then the code might look something like:</p>
+<pre><code>thirst_level = 10
+while thirst_level &gt; 0:
+	take_sip()
+	thirst_level = thirst_level - 1
+</code></pre>
+<p><strong>Common mistake:</strong> Many students forget to write code inside their loop that allows the program to make progress toward making the condition of the loop <code>False</code>. If you don’t do this, your condition would never be <code>False</code> and your code will run forever!</p>
+<h1 id="conclusion">Conclusion</h1>
+<p>Hopefully this guide helped you clear up some confusion you had about any of these concepts. Also, note that this guide isn’t meant to be comprehensive. If you want a more comprehensive analysis of the concepts, read your <a href="http://composingprograms.com/">assigned reading</a> for the course. As always, if you have any questions about anything I said here (or anything else), please reach out to me and I’m more than happy to answer them!</p>
+
+    </div>
+  </div>
+</body>
+
+</html>
