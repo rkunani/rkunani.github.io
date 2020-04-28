@@ -1,6 +1,6 @@
 # Teaching Resources
 
-<a href="raguvir.me/">Back to Home</a>
+<a href="../">Back to Home</a>
 
 | Semester | Role | Resources |
 | -------  | ---- | ------ |
