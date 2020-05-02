@@ -1,6 +1,4 @@
-<audio controls autoplay>
-  <source src="losing_it.mp3" type="audio/mpeg">
-</audio>
+<audio src="losing_it.mp3" autoplay="autoplay" loop="loop"></audio>
 
 <img src='./image.jpg' width="140" height="200" />
 
