@@ -1,3 +1,7 @@
+<audio controls autoplay>
+  <source src="losing_it.mp3" type="audio/mpeg">
+</audio>
+
 <img src='./image.jpg' width="140" height="200" />
 
 # Raguvir Kunani
