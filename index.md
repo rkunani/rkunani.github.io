@@ -1,5 +1,3 @@
-<audio src="losing_it.mp3" autoplay="autoplay" loop="loop"></audio>
-
 <img src='./image.jpg' width="140" height="200" />
 
 # Raguvir Kunani
