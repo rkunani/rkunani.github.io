@@ -21,7 +21,7 @@
 | 6 | <a href="./resources/slides/modeling.pdf" target="_blank">slides</a>, <a href="./resources/worksheets/disc06.pdf" target="_blank">worksheet</a> |
 | 7 | <a href="./resources/slides/gradient_descent.pdf" target="_blank">slides</a>, <a href="./resources/worksheets/disc07.pdf" target="_blank">worksheet</a> |
 | 8 | <a href="./resources/slides/linear_regression.pdf" target="_blank">slides</a> |
-| 9+ | switched to guides |
+| 9+ | switched to guides (due to COVID-19) |
 
 ### Guides
 
@@ -33,8 +33,8 @@ Guides are *supplements* to lecture.
 | Train-Test Split, Validation | guide |
 | Regularization | guide |
 | Bias-Variance Tradeoff | guide |
-| Logistic Regression | guide, <a href="https://d1b10bmlvqabco.cloudfront.net/attach/k4zyqkjkyt33a2/j6p99phf1k43jq/k9d9hu5z6c7z/Discussion_12.pdf" target="_blank">Paul's Discussion Notes</a> |
-| Decision Trees | <a href="https://hackmd.io/@rkunani/decision-tree" target="_blank">guide</a>, <a href="https://d1b10bmlvqabco.cloudfront.net/attach/k4zyqkjkyt33a2/j6p99phf1k43jq/k9d9hu5z6c7z/Discussion_12.pdf" target="_blank">Paul's Discussion Notes</a> |
+| Logistic Regression | guide |
+| Decision Trees | <a href="https://hackmd.io/@rkunani/decision-tree" target="_blank">guide</a> |
 | PCA | guide |
 | Clustering | guide |
 
