@@ -23,7 +23,7 @@ Guides are *supplements* to lecture.
 | PCA | guide |
 | Clustering | guide |
 
-## Other Resources
+### Other Resources
 
 - <a href="./resources/other/precision-recall.pdf" target="_blank">Precision Recall Example</a>
 - <a href="https://hackmd.io/@rkunani/hypothesis-testing" target="_blank">Hypothesis Testing Guide</a>
