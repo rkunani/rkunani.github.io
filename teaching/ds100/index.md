@@ -6,22 +6,7 @@
 <br>
 <a href="../../">Back to Home</a>
 
-
-## Spring 2020
-
-### Discussion Slides + Worksheets
-
-| Week | Resources |
-| ---- | --------- |
-| 1 | <a href="./resources/worksheets/disc01.pdf" target="_blank">worksheet</a> |
-| 2 | <a href="./resources/worksheets/disc02.pdf" target="_blank">worksheet</a>, <a href="https://hackmd.io/@rkunani/SybBko1zI" target="_blank">guide</a> |
-| 3 | <a href="./resources/slides/disc03.pdf" target="_blank">slides</a> |
-| 4 | N/A |
-| 5 | no slides or worksheet |
-| 6 | <a href="./resources/slides/modeling.pdf" target="_blank">slides</a>, <a href="./resources/worksheets/disc06.pdf" target="_blank">worksheet</a> |
-| 7 | <a href="./resources/slides/gradient_descent.pdf" target="_blank">slides</a>, <a href="./resources/worksheets/disc07.pdf" target="_blank">worksheet</a> |
-| 8 | <a href="./resources/slides/linear_regression.pdf" target="_blank">slides</a> |
-| 9+ | switched to guides (due to COVID-19) |
+## Fall 2020
 
 ### Guides
 
@@ -46,6 +31,24 @@ Guides are *supplements* to lecture.
 - <a href="./resources/other/group_merge_walkthrough.html" target="_blank">Grouping and Merging Walkthrough Notebook</a>, <a href="./resources/other/group_merge_walkthrough.ipynb" download>code</a>
 - <a href="./resources/other/linear_regression_review.pdf" target="_blank">Linear Regression Review Session Problems</a>
 - <a href="./resources/other/pca_review.pdf" target="_blank">PCA Review Session Slides</a>, <a href="./resources/other/pca_review_solutions.pdf" target="_blank">solutions</a>
+
+
+## Spring 2020
+
+### Discussion Slides + Worksheets
+
+| Week | Resources |
+| ---- | --------- |
+| 1 | <a href="./resources/worksheets/disc01.pdf" target="_blank">worksheet</a> |
+| 2 | <a href="./resources/worksheets/disc02.pdf" target="_blank">worksheet</a>, <a href="https://hackmd.io/@rkunani/SybBko1zI" target="_blank">guide</a> |
+| 3 | <a href="./resources/slides/disc03.pdf" target="_blank">slides</a> |
+| 4 | N/A |
+| 5 | no slides or worksheet |
+| 6 | <a href="./resources/slides/modeling.pdf" target="_blank">slides</a>, <a href="./resources/worksheets/disc06.pdf" target="_blank">worksheet</a> |
+| 7 | <a href="./resources/slides/gradient_descent.pdf" target="_blank">slides</a>, <a href="./resources/worksheets/disc07.pdf" target="_blank">worksheet</a> |
+| 8 | <a href="./resources/slides/linear_regression.pdf" target="_blank">slides</a> |
+| 9+ | switched to guides (due to COVID-19) |
+
 
 ## Fall 2019
 
