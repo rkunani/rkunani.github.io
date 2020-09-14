@@ -9,7 +9,7 @@
 ## Fall 2020
 
 <head>
-	<link rel="stylesheet" href="index.css">
+	<!-- <link rel="stylesheet" href="index.css"> -->
 	<script src="./index.js"></script>
 </head>
 <button class="accordion">Section 1</button>
