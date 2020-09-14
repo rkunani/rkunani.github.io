@@ -2,3 +2,5 @@ name: Raguvir's Teaching Resources
 
 plugins:
 - jemoji
+
+markdown: CommonMarkGhPages
