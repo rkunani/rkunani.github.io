@@ -3,4 +3,6 @@ name: Raguvir's Teaching Resources
 plugins:
 - jemoji
 
-markdown: CommonMarkGhPages
+markdown: kramdown
+kramdown:
+  parse_block_html: true
