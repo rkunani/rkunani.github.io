@@ -8,6 +8,7 @@
 
 ## Fall 2020
 
+<link rel="stylesheet" href="index.css">
 <script src="./index.js"></script>
 <button class="accordion">Section 1</button>
 <div class="panel">
