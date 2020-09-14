@@ -2,3 +2,7 @@ name: Raguvir's Teaching Resources
 
 plugins:
 - jemoji
+
+commonmark:
+  options: ["SMART", "FOOTNOTES"]
+  extensions: ["strikethrough", "autolink", "table"]
