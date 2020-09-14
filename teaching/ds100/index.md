@@ -8,6 +8,7 @@
 
 ## Fall 2020
 
+<script src="./index.js"></script>
 <button class="accordion">Section 1</button>
 <div class="panel">
   <p>Lorem ipsum...</p>
