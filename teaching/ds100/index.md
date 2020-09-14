@@ -8,10 +8,7 @@
 
 ## Fall 2020
 
-<head>
-	<!-- <link rel="stylesheet" href="index.css"> -->
-	<script src="./index.js"></script>
-</head>
+<link rel="stylesheet" href="index.css">
 <button class="accordion">Section 1</button>
 <div class="panel">
   <p>Lorem ipsum...</p>
@@ -26,6 +23,7 @@
 <div class="panel">
   <p>Lorem ipsum...</p>
 </div>
+<script src="./index.js"></script>
 
 ### Guides
 
