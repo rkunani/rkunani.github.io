@@ -5,4 +5,4 @@ plugins:
 
 commonmark:
   options: ["SMART", "FOOTNOTES"]
-  extensions: ["strikethrough", "autolink", "table"]
+  extensions: ["strikethrough", "autolink", "tables"]
