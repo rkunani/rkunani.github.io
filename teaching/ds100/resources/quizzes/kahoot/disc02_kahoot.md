@@ -2,6 +2,24 @@
 
 ### Click on a question to see the answer choices!
 
+<!-- Question Template:
+
+<details>
+  <summary>
+    The number of students in Data 100 this semester (as of today) is a random variable
+  </summary>
+  
+  <br />
+
+  - True
+  - False
+<details>
+  <summary style="color:blue;">Answer</summary>
+
+  **False**
+</details>
+</details> -->
+
 <details>
   <summary>
     The number of students in Data 100 this semester (as of today) is a random variable
