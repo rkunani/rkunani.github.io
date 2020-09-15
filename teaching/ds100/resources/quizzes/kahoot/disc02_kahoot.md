@@ -17,3 +17,13 @@
 
   **True**. The number of juniors in an SRS depends on which students are selected in the SRS, which is random.
 </details>
+
+<details>
+  <summary>
+    What is the *distribution* of the outcomes of a roll of a 6-sided die?
+  </summary>
+  
+  <br />
+
+  **True**. The number of juniors in an SRS depends on which students are selected in the SRS, which is random.
+</details>
