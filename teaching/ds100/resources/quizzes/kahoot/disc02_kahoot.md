@@ -30,12 +30,8 @@
   - Uniform
   - oof idk
 
-  <br />
-
   <details>
   <summary>Answer</summary>
-  
-  <br />
 
   **Uniform**
 </details>
