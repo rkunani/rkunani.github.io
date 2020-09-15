@@ -1,6 +1,6 @@
 ## Fall 2020 Discussion 2 Kahoot
 
-#### Click on a question to see the answer!
+### Click on a question to see the answer!
 
 <details>
   <summary>(True/False) The number of students in Data 100 this semester (as of today) is a random variable</summary>
@@ -11,11 +11,9 @@
 </details>
 
 <details>
-  <summary>Section 2</summary>
+  <summary>(True/False) The number of juniors in an SRS of Data 100 students is a random variable</summary>
   
-  ## Heading
-  1. A numbered
-  2. list
-     * With some
-     * Sub bullets
+  <br />
+
+  **True**. The number of juniors in an SRS depends on which students are selected in the SRS, which is random.
 </details>
