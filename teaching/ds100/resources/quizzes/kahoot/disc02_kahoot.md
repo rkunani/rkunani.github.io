@@ -1,6 +1,6 @@
 ## Fall 2020 Discussion 2 Kahoot
 
-### Click on a question to see the answer!
+### Click on a question to see the answer choices!
 
 <details>
   <summary>(True/False) The number of students in Data 100 this semester (as of today) is a random variable</summary>
@@ -20,10 +20,23 @@
 
 <details>
   <summary>
-    What is the distribution of the $$outcomes$$ of a roll of a 6-sided die?
+    What is the distribution of the outcomes of a roll of a 6-sided die?
   </summary>
   
   <br />
 
-  **True**. The number of juniors in an SRS depends on which students are selected in the SRS, which is random.
+  - Bernoulli
+  - Binomial
+  - Uniform
+  - oof idk
+
+  <br />
+
+  <details>
+  <summary>Answer</summary>
+  
+  <br />
+
+  **Uniform**
+</details>
 </details>
