@@ -7,6 +7,7 @@
   
   <br />
   <br />
+  
   **False**. The number of students in Data 100 is a fixed number. It does not depend on any chance event.
 </details>
 
