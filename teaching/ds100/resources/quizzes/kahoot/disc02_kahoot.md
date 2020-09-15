@@ -12,7 +12,7 @@
   - True
   - False
 <details>
-  <summary>Answer</summary>
+  <summary style="color:blue;">Answer</summary>
 
   **False**
 </details>
@@ -30,7 +30,7 @@
   - True
   - False
 <details>
-  <summary>Answer</summary>
+  <summary style="color:blue;">Answer</summary>
 
   **True**
 </details>
@@ -50,7 +50,7 @@
   - Uniform
   - oof idk
 <details>
-  <summary>Answer</summary>
+  <summary style="color:blue;">Answer</summary>
 
   **Uniform**
 </details>
