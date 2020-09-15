@@ -3,20 +3,38 @@
 ### Click on a question to see the answer choices!
 
 <details>
-  <summary>(True/False) The number of students in Data 100 this semester (as of today) is a random variable</summary>
+  <summary>
+    The number of students in Data 100 this semester (as of today) is a random variable
+  </summary>
   
   <br />
 
-  **False**. The number of students in Data 100 is a fixed number. It does not depend on any chance event.
+  - True
+  - False
+<details>
+  <summary>Answer</summary>
+
+  **False**
 </details>
+
+<br />
 
 <details>
-  <summary>(True/False) The number of juniors in an SRS of Data 100 students is a random variable</summary>
+  <summary>
+    The number of juniors in an SRS of Data 100 students is a random variable
+  </summary>
   
   <br />
 
-  **True**. The number of juniors in an SRS depends on which students are selected in the SRS, which is random.
+  - True
+  - False
+<details>
+  <summary>Answer</summary>
+
+  **True**
 </details>
+
+<br />
 
 <details>
   <summary>
