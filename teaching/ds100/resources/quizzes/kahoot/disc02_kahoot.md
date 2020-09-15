@@ -6,8 +6,7 @@
   <summary>(True/False) The number of students in Data 100 this semester (as of today) is a random variable</summary>
   
   <br />
-  <br />
-  
+
   **False**. The number of students in Data 100 is a fixed number. It does not depend on any chance event.
 </details>
 
