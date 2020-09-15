@@ -31,7 +31,7 @@
   - oof idk
 <details>
   <summary>Answer</summary>
-  <br />
+
   **Uniform**
 </details>
 
