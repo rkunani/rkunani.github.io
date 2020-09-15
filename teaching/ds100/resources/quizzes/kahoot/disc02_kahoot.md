@@ -29,13 +29,10 @@
   - Binomial
   - Uniform
   - oof idk
-
-  <details>
-    <summary>Answer</summary>
-
-    <br />
-
-    **Uniform**
-  </details>
+<details>
+  <summary>Answer</summary>
+  <br />
+  **Uniform**
+</details>
 
 </details>
