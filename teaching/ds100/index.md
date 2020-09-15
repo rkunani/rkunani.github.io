@@ -59,8 +59,8 @@ Guides are *supplements* to lecture.
 
 | Week | Resources |
 | ---- | --------- |
-| 1 | <a href="./resources/worksheets/disc01.pdf" target="_blank">worksheet</a> |
-| 2 | <a href="./resources/worksheets/disc02.pdf" target="_blank">worksheet</a>, <a href="https://hackmd.io/@rkunani/SybBko1zI" target="_blank">guide</a> |
+| 1 | <a href="./resources/worksheets/sp20/disc01.pdf" target="_blank">worksheet</a> |
+| 2 | <a href="./resources/worksheets/sp20/disc02.pdf" target="_blank">worksheet</a>, <a href="https://hackmd.io/@rkunani/SybBko1zI" target="_blank">guide</a> |
 | 3 | <a href="./resources/slides/sp20/disc03.pdf" target="_blank">slides</a> |
 | 4 | N/A |
 | 5 | no slides or worksheet |
