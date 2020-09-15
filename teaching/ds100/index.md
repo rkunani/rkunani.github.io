@@ -61,12 +61,12 @@ Guides are *supplements* to lecture.
 | ---- | --------- |
 | 1 | <a href="./resources/worksheets/disc01.pdf" target="_blank">worksheet</a> |
 | 2 | <a href="./resources/worksheets/disc02.pdf" target="_blank">worksheet</a>, <a href="https://hackmd.io/@rkunani/SybBko1zI" target="_blank">guide</a> |
-| 3 | <a href="./resources/slides/disc03.pdf" target="_blank">slides</a> |
+| 3 | <a href="./resources/slides/sp20/disc03.pdf" target="_blank">slides</a> |
 | 4 | N/A |
 | 5 | no slides or worksheet |
-| 6 | <a href="./resources/slides/modeling.pdf" target="_blank">slides</a>, <a href="./resources/worksheets/disc06.pdf" target="_blank">worksheet</a> |
-| 7 | <a href="./resources/slides/gradient_descent.pdf" target="_blank">slides</a>, <a href="./resources/worksheets/disc07.pdf" target="_blank">worksheet</a> |
-| 8 | <a href="./resources/slides/linear_regression.pdf" target="_blank">slides</a> |
+| 6 | <a href="./resources/slides/sp20/modeling.pdf" target="_blank">slides</a>, <a href="./resources/worksheets/sp20/disc06.pdf" target="_blank">worksheet</a> |
+| 7 | <a href="./resources/slides/sp20/gradient_descent.pdf" target="_blank">slides</a>, <a href="./resources/worksheets/sp20/disc07.pdf" target="_blank">worksheet</a> |
+| 8 | <a href="./resources/slides/sp20/linear_regression.pdf" target="_blank">slides</a> |
 | 9+ | switched to guides (due to COVID-19) |
 
 
