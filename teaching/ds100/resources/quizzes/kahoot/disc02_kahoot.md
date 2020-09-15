@@ -20,7 +20,7 @@
 
 <details>
   <summary>
-    What is the *distribution* of the outcomes of a roll of a 6-sided die?
+    What is the distribution of the $$outcomes$$ of a roll of a 6-sided die?
   </summary>
   
   <br />
