@@ -16,6 +16,7 @@
 
   **False**
 </details>
+</details>
 
 <br />
 
@@ -32,6 +33,7 @@
   <summary>Answer</summary>
 
   **True**
+</details>
 </details>
 
 <br />
@@ -52,5 +54,4 @@
 
   **Uniform**
 </details>
-
 </details>
