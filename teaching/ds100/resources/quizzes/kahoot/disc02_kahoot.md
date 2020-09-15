@@ -33,6 +33,8 @@
   <details>
     <summary>Answer</summary>
 
+    <br />
+    
     **Uniform**
   </details>
 </details>
