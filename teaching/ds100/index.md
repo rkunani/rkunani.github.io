@@ -13,7 +13,7 @@
 | Week | Resources |
 | ---- | --------- |
 | 1 | None |
-| 2 | <a href="./resources/quizzes/kahoot/disc02_kahoot.md" target="_blank">Kahoot Questions and Answers</a> |
+| 2 | <a href="./resources/quizzes/kahoot/disc02_kahoot" target="_blank">Kahoot Questions and Answers</a> |
 | 3 |  |
 | 4 |  |
 | 5 |  |
