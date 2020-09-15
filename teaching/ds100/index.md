@@ -12,15 +12,9 @@
 
 | Week | Resources |
 | ---- | --------- |
-| 1 | None |
-| 2 | <a href="./resources/quizzes/kahoot/disc02_kahoot" target="_blank">Kahoot Questions and Answers</a> |
-| 3 |  |
-| 4 |  |
-| 5 |  |
-| 6 |  |
-| 7 |  |
-| 8 |  |
-| 9+ |  |
+| 1 | N/A |
+| 2 | None |
+| 3 | <a href="./resources/quizzes/kahoot/disc02_kahoot" target="_blank">Kahoot Questions and Answers</a> |
 
 ### Guides
 
