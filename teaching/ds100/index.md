@@ -8,25 +8,19 @@
 
 ## Fall 2020
 
-<details>
-  <summary>Section 1</summary>
-  
-  ## Heading
-  1. A numbered
-  2. list
-     * With some
-     * Sub bullets
-</details>
+### Discussion Resources
 
-<details>
-  <summary>Section 2</summary>
-  
-  ## Heading
-  1. A numbered
-  2. list
-     * With some
-     * Sub bullets
-</details>
+| Week | Resources |
+| ---- | --------- |
+| 1 | None |
+| 2 | <a href="./resources/quizzes/kahoot/disc02_kahoot.md" target="_blank">Kahoot Questions and Answers</a> |
+| 3 |  |
+| 4 |  |
+| 5 |  |
+| 6 |  |
+| 7 |  |
+| 8 |  |
+| 9+ |  |
 
 ### Guides
 
