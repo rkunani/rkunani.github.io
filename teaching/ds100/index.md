@@ -15,6 +15,7 @@
 | 1 | N/A |
 | 2 | None |
 | 3 | <a href="./resources/quizzes/kahoot/disc02_kahoot" target="_blank">Kahoot Questions and Answers</a> |
+| 4 | <a href="./resources/other/fa20_disc03.html" target="_blank">Pandas Basics Notebook</a>, <a href="./resources/other/fa20_disc03.ipynb" download>code</a> |
 
 ### Guides
 
