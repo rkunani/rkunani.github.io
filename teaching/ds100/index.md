@@ -16,6 +16,8 @@
 | 2 | None |
 | 3 | <a href="./resources/quizzes/kahoot/disc02_kahoot" target="_blank">Kahoot Questions and Answers</a> |
 | 4 | <a href="./resources/other/fa20_disc03.html" target="_blank">Pandas Basics Notebook</a>, <a href="./resources/other/fa20_disc03.ipynb" download>code</a> |
+| 5 | <a href="./resources/other/regex.html" target="_blank">Regex Notebook</a>, <a href="./resources/other/regex.ipynb" download>code</a> |
+| 6 | <a href="./resources/worksheets/fa20/Dis5.pdf" target="_blank">Worksheet</a>, <a href="https://docs.google.com/presentation/d/1fnUiFnRxtoUPHgbJdJ5--sov398piyMNgu_JJ_Oe2f8/edit#slide=id.p" target="_blank">Transformations Cheat Sheet</a> |
 
 ### Guides
 
