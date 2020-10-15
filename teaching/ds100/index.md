@@ -19,6 +19,7 @@
 | 5 | <a href="./resources/other/regex.html" target="_blank">Regex Notebook</a>, <a href="./resources/other/regex.ipynb" download>code</a> |
 | 6 | <a href="./resources/worksheets/fa20/Dis5.pdf" target="_blank">Worksheet</a>, <a href="https://docs.google.com/presentation/d/1fnUiFnRxtoUPHgbJdJ5--sov398piyMNgu_JJ_Oe2f8/edit#slide=id.p" target="_blank">Transformations Cheat Sheet</a> |
 | 7 | <a href="./resources/slides/fa20/disc06_notes.pdf" target="_blank">Modeling + Linear Regression Notes</a> |
+| 8 | <a href="./resources/slides/fa20/disc07_slides.pdf" target="_blank">Japjot's Slides</a>, <a href="./resources/slides/fa20/linear_regression.pdf" target="_blank">Raguvir's OLS Slides</a> |
 
 ### Guides
 
