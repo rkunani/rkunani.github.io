@@ -20,6 +20,7 @@
 | 6 | <a href="./resources/worksheets/fa20/Dis5.pdf" target="_blank">Worksheet</a>, <a href="https://docs.google.com/presentation/d/1fnUiFnRxtoUPHgbJdJ5--sov398piyMNgu_JJ_Oe2f8/edit#slide=id.p" target="_blank">Transformations Cheat Sheet</a> |
 | 7 | <a href="./resources/slides/fa20/disc06_notes.pdf" target="_blank">Modeling + Linear Regression Notes</a> |
 | 8 | <a href="./resources/slides/fa20/disc07_slides.pdf" target="_blank">Japjot's Slides</a>, <a href="./resources/slides/fa20/linear_regression.pdf" target="_blank">Raguvir's OLS Slides</a> |
+| 10 | <a href="./resources/slides/fa20/disc09_notes.pdf" target="_blank">Bias/Variance + Regularization Notes</a>, <a href="./resources/slides/fa20/regularization_exam_walkthrough.pdf" target="_blank">Regularization Exam Problem walkthrough</a> |
 
 ### Guides
 
