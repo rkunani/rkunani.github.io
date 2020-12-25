@@ -8,20 +8,6 @@
 
 ## Fall 2020
 
-### Discussion Resources
-
-| Week | Resources |
-| ---- | --------- |
-| 1 | N/A |
-| 2 | None |
-| 3 | <a href="./resources/quizzes/kahoot/disc02_kahoot" target="_blank">Kahoot Questions and Answers</a> |
-| 4 | <a href="./resources/other/fa20_disc03.html" target="_blank">Pandas Basics Notebook</a>, <a href="./resources/other/fa20_disc03.ipynb" download>code</a> |
-| 5 | <a href="./resources/other/regex.html" target="_blank">Regex Notebook</a>, <a href="./resources/other/regex.ipynb" download>code</a> |
-| 6 | <a href="./resources/worksheets/fa20/Dis5.pdf" target="_blank">Worksheet</a>, <a href="https://docs.google.com/presentation/d/1fnUiFnRxtoUPHgbJdJ5--sov398piyMNgu_JJ_Oe2f8/edit#slide=id.p" target="_blank">Transformations Cheat Sheet</a> |
-| 7 | <a href="./resources/slides/fa20/disc06_notes.pdf" target="_blank">Modeling + Linear Regression Notes</a> |
-| 8 | <a href="./resources/slides/fa20/disc07_slides.pdf" target="_blank">Japjot's Slides</a>, <a href="./resources/slides/fa20/linear_regression.pdf" target="_blank">Raguvir's OLS Slides</a> |
-| 10 | <a href="./resources/slides/fa20/disc09_notes.pdf" target="_blank">Bias/Variance + Regularization Notes</a>, <a href="./resources/slides/fa20/regularization_exam_walkthrough.pdf" target="_blank">Regularization Exam Problem walkthrough</a> |
-
 ### Guides
 
 Guides are *supplements* to lecture.
@@ -30,7 +16,7 @@ Guides are *supplements* to lecture.
 | ----- | --------- |
 | Feature Engineering | <a href="https://hackmd.io/@rkunani/feature-engineering" target="_blank">guide</a> |
 | Train-Test Split, Validation | guide |
-| Regularization | guide |
+| Regularization | <a href="./resources/other/regularization_notes.pdf" target="_blank">guide</a> |
 | Bias-Variance Tradeoff | guide |
 | Logistic Regression | guide |
 | Decision Trees | <a href="https://hackmd.io/@rkunani/decision-tree" target="_blank">guide</a> |
