@@ -6,7 +6,7 @@
 <br>
 <a href="../../">Back to Home</a>
 
-## Fall 2020
+## Spring 2021 / Fall 2020
 
 ### Guides
 
