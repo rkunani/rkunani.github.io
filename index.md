@@ -1,4 +1,4 @@
-<img src='./Raguvir_Kunani.png' width="140" height="200" />
+<img src='./Raguvir_Kunani.png' width="180" height="200" />
 
 # Raguvir Kunani
 
